@@ -8,25 +8,25 @@ const NavBar = () => {
            
         }
     }}>Home</NavLink></li>
-    <li><NavLink to="/" style={({isActive}) => {
+    <li><NavLink to="/contact" style={({isActive}) => {
         return{
             color: isActive ? "#EEFF25" : "white",
            
         }
     }}>CONTACT US</NavLink></li>
-    <li><NavLink to="/" style={({isActive}) => {
+    <li><NavLink to="/dashboard" style={({isActive}) => {
         return{
             color: isActive ? "#EEFF25" : "white",
            
         }
     }}>DASHBOARD</NavLink></li>
-    <li><NavLink to="/" style={({isActive}) => {
+    <li><NavLink to="/menu" style={({isActive}) => {
         return{
             color: isActive ? "#EEFF25" : "white",
            
         }
     }}>Our Menu</NavLink></li>
-    <li><NavLink to="/" style={({isActive}) => {
+    <li><NavLink to="/shop" style={({isActive}) => {
         return{
             color: isActive ? "#EEFF25" : "white",
            
@@ -35,7 +35,7 @@ const NavBar = () => {
     </>
     return (
         <>
-            <div className="navbar bg-gray-300">
+            <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
