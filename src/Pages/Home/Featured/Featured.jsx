@@ -3,7 +3,7 @@ import featuredImg from "../../../assets/home/featured.jpg"
 
 const Featured = () => {
     return (
-        <div style={{backgroundImage: `url(${featuredImg})`}}> 
+        <div className="bg-fixed" style={{backgroundImage: `url(${featuredImg})`}}> 
             <SectionTitle heading={'FROM OUR MENU'} subHeading={'Check it out'}></SectionTitle>
             <div className="grid grid-cols-2 w-11/12 mx-auto py-24 px-36">
                 <div>
