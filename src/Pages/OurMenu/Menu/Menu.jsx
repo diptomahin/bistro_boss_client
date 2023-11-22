@@ -15,7 +15,6 @@ import soupImg from '../../../assets/menu/soup-bg.jpg'
 
 const Menu = () => {
     const [menu] = UseMenu();
-
     const offered = menu.filter(item => item.category === 'offered' )
     const dessert = menu.filter(item => item.category === 'dessert' )
     const pizza = menu.filter(item => item.category === 'pizza' )
