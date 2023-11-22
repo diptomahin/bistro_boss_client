@@ -19,7 +19,7 @@ const Testimonials = () => {
             .then(data => setReviews(data))
     }, [])
     return (
-        <div className='w-10/12 mx-auto'>
+        <div className='w-10/12 mx-auto my-16'>
             <SectionTitle heading={'TESTIMONIALS'} subHeading={'What Our Clients Say'}></SectionTitle>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper items-center text-center w-4/5">
                 {
