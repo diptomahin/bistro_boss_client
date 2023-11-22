@@ -26,7 +26,7 @@ const NavBar = () => {
            
         }
     }}>Our Menu</NavLink></li>
-    <li><NavLink to="/shop" style={({isActive}) => {
+    <li><NavLink to="/shop/salad" style={({isActive}) => {
         return{
             color: isActive ? "#EEFF25" : "white",
            
